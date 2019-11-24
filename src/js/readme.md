@@ -1,0 +1,5 @@
+This is my assignment for my General Assembly software immersive class.  It is the game of War.  This game involves creating a deck consisting of an array of 52 cards is divided into four classes called 'suits' and four classes called 'rank' consisting of index values of 13, or 0 through 12.  Ive created a shuffle function and essentially deal cards by popping them.  
+
+This game is played by dealing the 52 cards into two hands of 26 each, and each hand presenting a random card from the top of the deck. the hand with the higher index value wins resulting in the played cards popping in to the other hand.  The game ends when one hand contains all 52 cards.
+
+In normal game play, there is a function where ties or two cards of equal rank face each other.  My version does not include this feature, but simply proceeds to a new hand.
